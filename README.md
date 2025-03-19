@@ -20,3 +20,6 @@ This would define the grammar: S'->S, S->a.
 
 > No need to add symbol to `syms`, for
 > they would be added once they're created.
+
+Afterwards run the python scripts, extract the graphviz script starting with
+`digraph G ...` and run it with a dot engine to produce the image.
