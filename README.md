@@ -1,2 +1,22 @@
 # SLR-Parser-Graph-Generator
+
+![lr_parser_graph](https://github.com/user-attachments/assets/ff041b3b-f3ff-460b-9f84-5bd87b5c371b)
+
 Single python script for generating parsing graph for SLR parser.
+
+WARNING: This is a self made tool for convenience for learning purpose.
+Neither the logic nor the implementation has been verified!
+
+## Usage
+
+Define the grammar in the scripts like this:
+
+```python
+rules.append(Rule(Sym("S'"), [Sym("S")]))
+rules.append(Rule(Sym("S"), [Sym("a")]))
+```
+
+This would define the grammar: S'->S, S->a.
+
+> No need to add symbol to `syms`, for
+> they would be added once they're created.
