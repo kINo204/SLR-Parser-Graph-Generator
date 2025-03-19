@@ -13,10 +13,10 @@ Define the grammar in the scripts like this:
 
 ```python
 rules.append(Rule(Sym("S'"), [Sym("S")]))
-rules.append(Rule(Sym("S"), [Sym("a")]))
+rules.append(Rule(Sym("S"), [Sym("a"), Sym("b")]))
 ```
 
-This would define the grammar: S'->S, S->a.
+This would define the grammar: `S'->S, S->ab`.
 
 > No need to add symbol to `syms`, for
 > they would be added once they're created.
