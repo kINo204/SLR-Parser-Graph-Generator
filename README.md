@@ -5,7 +5,7 @@
 Single python script for generating parsing graph for SLR parser.
 
 **WARNING: This is a self made tool for convenience of learning purpose.
-Neither the logic nor the implementation has been verified!**
+Correctness is not guaranteed!**
 
 ## Usage
 
