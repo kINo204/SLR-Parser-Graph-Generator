@@ -124,7 +124,6 @@ while True:
 					T.append(tar)
 	if len(T) == len(collection): break
 	collection = [i for i in T]
-collection = [i for i in T]
 
 print("Canonical collections:")
 for item_set in collection:
@@ -148,3 +147,4 @@ def to_graphviz():
 	return s
 
 print(to_graphviz())
+
